@@ -6,7 +6,7 @@ const CategoryRoute = require('./route/category')
 const ProductRoute = require('./route/product')
 
 
-mongoose.connect("mongodb://127.0.0.1:27017/forTest").then(()=>{console.log("connected to DB")}).catch((e=>console.log(e.message)))
+mongoose.connect("//toshkanovulugbek03:<0vlFQ7Vewg83pJCB>@cluster0.nkn2ivy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(()=>{console.log("connected to DB")}).catch((e=>console.log(e.message)))
 
 
 app.use(express.json())
